@@ -1,3 +1,4 @@
 # Ignore history files
 
 .history/
+.vscode/
