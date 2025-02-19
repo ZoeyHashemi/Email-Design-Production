@@ -104,10 +104,94 @@ img {
     font-size: 18px;
     line-height: 26px;
 }
+.button {
+    background-color: #FF7900;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    color: #fff;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    padding: 10px 25px;
+    -webkit-transition: all .35s;
+    transition: all .35s
+}
 
+.button-infinity {
+    background-color: transparent;
+    border-radius: 5px;
+    border: 2px solid #333333;
+    color: #333333;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    padding: 10px 30px;
+    -webkit-transition: all .35s;
+    transition: all .35s
+}
 
+.button:hover {
+    background-color: transparent;
+    border: 2px solid #FF7900;
+    color: #FF7900
+}
 
+.button-infinity:hover {
+    background-color: #FF7900;
+    border: 2px solid #FF7900;
+    color: #FFFFFF
+}
 
+.button.button--outline {
+    background-color: transparent;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    text-align: center
+}
+
+.button-infinity.button--outline-infinity {
+    background-color: transparent;
+    border-radius: 5px;
+    border: 2px solid #333333;
+    text-align: center
+    color:#333333;
+    margin-left: 10px;
+}
+
+.button-infinity.button--outline-infinity:hover {
+    background-color: #333333;
+    border-radius: 5px;
+    border: 2px solid #333333;
+    text-align: center
+    color:#FFFFFF;
+}
+
+.button.button--purchase {
+    background-color: #FF7900;
+    border-color: #FF7900;
+}
+
+.button-simple {
+    background-color: #FF7900;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    color: #fff;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 0px;
+    padding: 5px 15px;
+    -webkit-transition: all .35s;
+    transition: all .35s
+}
+
+.button-simple:hover {
+    background-color: transparent;
+    border: 1px solid #FF7900;
+    color: #FF7900
+}
 
 
 .container {
@@ -201,8 +285,19 @@ img {
     z-index: 1
 }
 
+.hero__cta .button {
+    margin: 0 10px
+}
 
+.hero__cta .button--outline:hover {
+    color: #FF7900;
+    border-color: #FF7900
+}
 
+.hero__cta .button--purchase:hover {
+    background-color: transparent; 
+    color: #FF7900 
+}
 
 .hero__image {
     bottom: 0;
@@ -433,7 +528,7 @@ img {
 .text-button-simple {
     color: #000;
     display: inline-block;
-    font-size: 18px;
+    font-size: 21px;
     font-weight: 300;
     letter-spacing: 0px;
     padding: 5px 0px;
@@ -442,7 +537,7 @@ img {
     text-align: center;
     margin-bottom: 2px;
     line-height: 28px;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 .thumb__icon {
@@ -551,7 +646,7 @@ img {
       margin-bottom: 30px;
   }
   .banner__subtitle{
-    font-size: 18px;
+    font-size: 1px;
     color: #fff;
   }
 }
@@ -573,11 +668,6 @@ img {
 .hero__text {
     padding: 0 10px;
     color: #fff;
-}
-.banner__subtitle{
-  font-size: 16px;
-  color: #eec222;
-  text-shadow: #1d1d1d 1px 2px 1px;
 }
 .hero__cta {
     -webkit-flex-wrap: wrap;
